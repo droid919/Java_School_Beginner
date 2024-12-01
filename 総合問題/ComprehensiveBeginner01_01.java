@@ -16,7 +16,7 @@ public class ComprehensiveBeginner01_01 {
             arrint.add(Integer.parseInt(s[i]));
         }
 
-        for (int i = 0; i < 3; i++){
+        for (int i = 0; i < arrint.size(); i++){
             System.out.println(
                 i + 1 + "番目の要素の値は" + arrint.get(i) + 
             "で、2倍にすると" + arrint.get(i) * 2 + 
